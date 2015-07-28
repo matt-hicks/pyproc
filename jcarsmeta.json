@@ -1,0 +1,40 @@
+{
+    "fields": [
+        {
+            "Name": "Classification", 
+            "Type": "string", 
+            "uniquevals": 1
+        }, 
+        {
+            "Name": "Colour", 
+            "Type": "string", 
+            "uniquevals": 5
+        }, 
+        {
+            "Name": "Milage", 
+            "Type": "numeric", 
+            "max": 89695.0, 
+            "min": 26821.0
+        }, 
+        {
+            "Name": "Manufacturer", 
+            "Type": "string", 
+            "uniquevals": 3
+        }, 
+        {
+            "Name": "Price", 
+            "Type": "numeric", 
+            "max": 2880.6, 
+            "min": 912.2
+        }, 
+        {
+            "Name": "Size", 
+            "Type": "string", 
+            "uniquevals": 10
+        }
+    ], 
+    "format": "JSON", 
+    "infile": "D:/Matt Documents/MSc/ITNPD2 Python/deployment/carsdata.json", 
+    "numfields": 6, 
+    "numrows": 100
+}

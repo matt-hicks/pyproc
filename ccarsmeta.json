@@ -1,0 +1,37 @@
+{
+    "fields": [
+        {
+            "Name": "Milage", 
+            "Type": "numeric", 
+            "max": 95872, 
+            "min": 26275
+        }, 
+        {
+            "Name": "Colour", 
+            "Type": "string", 
+            "uniquevals": 5
+        }, 
+        {
+            "Name": "Size", 
+            "Type": "string", 
+            "uniquevals": 10
+        }, 
+        {
+            "Name": "Price", 
+            "Type": "numeric", 
+            "max": 2907, 
+            "min": 665
+        }, 
+        {
+            "Name": "Manufacturer", 
+            "Type": "string", 
+            "uniquevals": 3
+        }
+    ], 
+    "format": "tabular", 
+    "header": 1, 
+    "infile": "D:/Matt Documents/MSc/ITNPD2 Python/deployment/carsdata.csv", 
+    "numfields": 5, 
+    "numrows": 100, 
+    "separator": ","
+}
